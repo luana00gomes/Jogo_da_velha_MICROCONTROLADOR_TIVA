@@ -9,7 +9,7 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
 4. Conecte seu microcontrolador ao display conforme as instruções abaixo
 
 <h5>
-======================== PINS ========================  <br>
+===================== PINS ====================  <br>
     Blue Nokia 5110 					<br>
     ------------------------------------------- 	<br>
     Signal        (Nokia 5110) LaunchPad pin 		<br>
@@ -22,7 +22,7 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
     3.3V          (Vcc, pin 6) power 			<br>
     back light    (BL,  pin 7) not connected 		<br>
     Ground        (Gnd, pin 8) ground 			<br>
-//////////////////////////////////////////////////////	<br>
+///////////////////////////////////////////////		<br>
     Red SparkFun Nokia 5110 (LCD-10168)			<br>
     --------------------------------------------	<br>
     Signal        (Nokia 5110) LaunchPad pin		<br>
@@ -35,12 +35,13 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
     SSI0Tx        (DN,  pin 6) connected to PA5		<br>
     SSI0Clk       (SCLK, pin 7) connected to PA2	<br>
     back light    (LED, pin 8) not connected		<br>
-======================================================	<br>
+================================================	<br>
 </h5>
 
 5. Tendo baixado o diretório deste código, abra-o no Code Composer
 6. No Code Composer, clique em Build para compilar o programa e em Flash para carregá-lo no microcontrolador
 
 <h2> Jogando </h2>
+
 1. Use o Switch 1 do seu microcontrolador para mover entre as casas
 2. Use o Switch 2 para marcar sua posição
