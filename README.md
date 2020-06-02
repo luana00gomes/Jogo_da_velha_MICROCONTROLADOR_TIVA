@@ -10,31 +10,31 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
 
 <h5>
 ===================== PINS ====================  <br>
-    Blue Nokia 5110 					<br>
-    ------------------------------------------- 	<br>
-    Signal        (Nokia 5110) LaunchPad pin 		<br>
-    -------------------------------------------		<br>
-    Reset         (RST, pin 1) connected to PA7 	<br>
-    SSI0Fss       (CE,  pin 2) connected to PA3 	<br>
-    Data/Command  (DC,  pin 3) connected to PA6 	<br>
-    SSI0Tx        (Din, pin 4) connected to PA5 	<br>
-    SSI0Clk       (Clk, pin 5) connected to PA2		<br>
-    3.3V          (Vcc, pin 6) power 			<br>
-    back light    (BL,  pin 7) not connected 		<br>
-    Ground        (Gnd, pin 8) ground 			<br>
+    Blue Nokia 5110 					|<br>
+    -------------------------------------------| 	<br>
+    Signal        (Nokia 5110) LaunchPad pin 		|<br>
+    -------------------------------------------		|<br>
+    Reset         (RST, pin 1) connected to PA7 	|<br>
+    SSI0Fss       (CE,  pin 2) connected to PA3 	|<br>
+    Data/Command  (DC,  pin 3) connected to PA6 	|<br>
+    SSI0Tx        (Din, pin 4) connected to PA5 	|<br>
+    SSI0Clk       (Clk, pin 5) connected to PA2		|<br>
+    3.3V          (Vcc, pin 6) power 			|<br>
+    back light    (BL,  pin 7) not connected 		|<br>
+    Ground        (Gnd, pin 8) ground 			|<br>
 ///////////////////////////////////////////////		<br>
-    Red SparkFun Nokia 5110 (LCD-10168)			<br>
-    --------------------------------------------	<br>
-    Signal        (Nokia 5110) LaunchPad pin		<br>
-    --------------------------------------------	<br>
-    3.3V          (VCC, pin 1) power			<br>
-    Ground        (GND, pin 2) ground			<br>
-    SSI0Fss       (SCE, pin 3) connected to PA3		<br>
-    Reset         (RST, pin 4) connected to PA7		<br>
-    Data/Command  (D/C, pin 5) connected to PA6		<br>
-    SSI0Tx        (DN,  pin 6) connected to PA5		<br>
-    SSI0Clk       (SCLK, pin 7) connected to PA2	<br>
-    back light    (LED, pin 8) not connected		<br>
+    Red SparkFun Nokia 5110 (LCD-10168)			|<br>
+    --------------------------------------------	|<br>
+    Signal        (Nokia 5110) LaunchPad pin		|<br>
+    --------------------------------------------	|<br>
+    3.3V          (VCC, pin 1) power			|<br>
+    Ground        (GND, pin 2) ground			|<br>
+    SSI0Fss       (SCE, pin 3) connected to PA3		|<br>
+    Reset         (RST, pin 4) connected to PA7		|<br>
+    Data/Command  (D/C, pin 5) connected to PA6		|<br>
+    SSI0Tx        (DN,  pin 6) connected to PA5		|<br>
+    SSI0Clk       (SCLK, pin 7) connected to PA2	|<br>
+    back light    (LED, pin 8) not connected		|<br>
 ================================================	<br>
 </h5>
 
