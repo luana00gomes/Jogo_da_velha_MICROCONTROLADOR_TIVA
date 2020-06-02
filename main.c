@@ -26,6 +26,7 @@
 
 
 int main(void){
+                        //CONFIGURAÇÕES         
                         SysCtlClockSet(SYSCTL_SYSDIV_5|SYSCTL_USE_PLL|SYSCTL_XTAL_16MHZ|SYSCTL_OSC_MAIN);
                         SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);//Habilita o portal F
                         //desbloquear SW2(pin 0) e interrupcao botao
@@ -40,8 +41,7 @@ int main(void){
                         GPIOIntEnable(GPIO_PORTF_BASE,GPIO_PIN_4|GPIO_PIN_0);
                         GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE,GPIO_PIN_3);
 
-                        //botao2();
-
+                        //Chama função para iniciar o jogo
                         run();
 }
 
