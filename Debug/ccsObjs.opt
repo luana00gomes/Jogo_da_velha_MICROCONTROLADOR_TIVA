@@ -1,0 +1,1 @@
+"./Nokia5110.obj" "./jogo.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/rvmdk/driverlib.lib" "../tm4c123gh6pm.cmd" -llibc.a 
