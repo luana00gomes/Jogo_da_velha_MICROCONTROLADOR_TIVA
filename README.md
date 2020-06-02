@@ -8,7 +8,7 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
 3. Tenha um display NOKIA 5110
 4. Conecte seu microcontrolador ao display conforme as instruções abaixo
 
-
+<h5>
 ======================== PINS ========================  <br>
     Blue Nokia 5110 					<br>
     ------------------------------------------- 	<br>
@@ -36,7 +36,7 @@ Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Te
     SSI0Clk       (SCLK, pin 7) connected to PA2	<br>
     back light    (LED, pin 8) not connected		<br>
 ======================================================	<br>
-
+</h5>
 
 5. Tendo baixado o diretório deste código, abra-o no Code Composer
 6. No Code Composer, clique em Build para compilar o programa e em Flash para carregá-lo no microcontrolador
