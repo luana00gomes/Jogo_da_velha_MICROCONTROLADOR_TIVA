@@ -5,8 +5,8 @@
 
 void inicia(void)
 {
-    volatile uint32_t ui32Loop; //O qualificador volatile impede que a variável sofra otimização, obrigando o programa a reler o valor da variável em véz de usar valores armazanados de registradores
-                                //Útil para evitar que mudanças feitas fora do escopo da função sejam perdidas
+    volatile uint32_t ui32Loop; //O qualificador volatile impede que a variÃ¡vel sofra otimizaÃ§Ã£o, obrigando o programa a reler o valor da variÃ¡vel em vÃ©z de usar valores armazanados de registradores
+                                //Ãštil para evitar que mudanÃ§as feitas fora do escopo da funÃ§Ã£o sejam perdidas
 
     Nokia5110_Init();
     Nokia5110_Clear();
@@ -32,7 +32,7 @@ void inicia(void)
 
 void partida(void)
 {
-    int ocupado[9] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 }; //Posições ocupadas na matriz
+    int ocupado[9] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 }; //PosiÃ§Ãµes ocupadas na matriz
     char M[9]; //
     int j = 0;
 
@@ -219,68 +219,6 @@ void run(void)
     partida();
 }
 
-void playerMov(int *ocupado, char peca)
-{
-    /*
-     int aux=1;
-     int position=0;
-
-     Nokia5110_Clear();
-     Nokia5110_DrawFullImage(tabuleiro);
-     int variavel = 0;
-
-     while(aux){
-
-     if ((GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_4) != GPIO_PIN_4) && variavel == 20){
-     position++;
-     Nokia5110_OutChar("A");
-     }
-     if ((GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_0) != GPIO_PIN_0) && variavel == 20){
-     int x = (position%9);
-
-     switch (x){
-     case (0):
-     Nokia5110_SetCursor(30, 10);
-     case (1):
-     Nokia5110_SetCursor(45, 10);
-     case (2):
-     Nokia5110_SetCursor(65, 10);
-     case (3):
-     Nokia5110_SetCursor(30, 20);
-     case (4):
-     Nokia5110_SetCursor(45, 20);
-     case (5):
-     Nokia5110_SetCursor(65, 20);
-     case (6):
-     Nokia5110_SetCursor(30, 25);
-     case (7):
-     Nokia5110_SetCursor(45, 25);
-     case (8):
-     Nokia5110_SetCursor(65, 25);
-
-     }
-     ocupado[x]=1;
-     Nokia5110_OutChar(peca);
-     aux=0;
-     }
-     if(variavel>20){variavel = 0;}
-     variavel++;
-     SysCtlDelay(1000);
-
-     }
-     */
-}
-
-void machineMov(int *ocupado, char peca)
-{/*
- int x= rand() % 9;
- setaPosicao(ocupado, x);
- Nokia5110_OutChar(peca);
-
- ocupado[x]=1;
- */
-}
-
 void setaPosicao(int *ocupado, int x)
 {
     x = x % 9;
@@ -377,14 +315,14 @@ void win(char M[9], char x)
         }
     }
 
-    //ler todas as posições da matriz
+    //ler todas as posiÃ§Ãµes da matriz
     for (i = 0; i < 3; i++)
     {
         for (j = 0; j < 3; j++)
         {
             if (i == 0)
             {
-                //caso em que a vitória ocorre nas colunas.
+                //caso em que a vitÃ³ria ocorre nas colunas.
                 if ((v[i][j] == v[i + 1][j]) && (v[i + 1][j] == v[i + 2][j]))
                 {
                     if (x == v[i][j])
@@ -404,7 +342,7 @@ void win(char M[9], char x)
             {
                 if (j == 0)
                 {
-                    //caso em que a vitória ocorre nas linhas.
+                    //caso em que a vitÃ³ria ocorre nas linhas.
                     if ((v[i][j] == v[i][j + 1])
                             && (v[i][j + 1] == v[i][j + 2]))
                     {
@@ -426,7 +364,7 @@ void win(char M[9], char x)
 
             if (i == j)
             {
-                //caso em que a vitória ocorre na diagonal principal.
+                //caso em que a vitÃ³ria ocorre na diagonal principal.
                 if ((v[i][j] == v[i + 1][j + 1])
                         && (v[i + 1][j + 1] == v[i + 2][j + 2]))
                 {
@@ -446,7 +384,7 @@ void win(char M[9], char x)
             }
             if (i == j && j == 1)
             {
-                //caso em que a vitória ocorre na diagonal secundária
+                //caso em que a vitÃ³ria ocorre na diagonal secundÃ¡ria
                 if ((v[i - 1][j + 1] == v[i, j])
                         && (v[i][j] == v[i + 1][j - 1]))
                 {
