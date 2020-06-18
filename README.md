@@ -1,6 +1,9 @@
 # Jogo_da_velha_MICROCONTROLADOR_TIVA
 Jogo da velha desenvolvido em C com quite de desenvolvimento TIVA C Series da Texas Instruments. O jogo pode ser jogado através do microcontrolador e com um display NOKIA.
 
+<h2> Visualizando o projeto</h2>
+Para ver o resultado do trabalho baixe o arquivo "Jogo da Velha.mp4".
+
 <h2> Como compilar e rodar</h2>
 
 1. Baixe e instale o programa Code Composer Studio <https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html>
